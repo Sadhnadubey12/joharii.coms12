@@ -1205,11 +1205,12 @@ button:hover {
     float: left
 }
 
+
 #header2 .menu2 ul li a {
     line-height: 14px;
     padding: 0 15px;
     font-family: 'Cormorant Infant', serif;
-    color:  #735c54;
+    color: white;
     text-transform: uppercase;
 }
 
