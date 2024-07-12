@@ -7426,3 +7426,39 @@ body.home-2 .logo {
     width: 30px; /* Adjust the width and height as per your icon size */
     height: 40px;
 }
+
+
+
+/* Ensure the container is fluid */
+.container-fluid {
+    width: 100%;
+    padding: 0 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* Default styling for larger screens */
+.product {
+    padding: 15px;
+}
+
+@media (max-width: 767px) {
+    /* For small devices (tablets, 768px and down) */
+    .product {
+        padding: 5px;
+    }
+}
+
+@media (max-width: 575px) {
+    /* For extra small devices (phones, less than 576px) */
+    .product {
+        padding: 5px;
+    }
+
+    /* Display three products per row */
+    .product {
+        flex: 0 0 33.3333%;
+        max-width: 33.3333%;
+    }
+}
+
