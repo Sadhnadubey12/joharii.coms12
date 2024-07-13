@@ -7462,4 +7462,30 @@ body.home-2 .logo {
         max-width: 33.3333%;
     }
 }
+        /* Additional CSS for grid layout */
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            gap: 10px;
+            padding: 20px;
+        }
+
+        .grid-item {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            /* border: 1px solid #ddd; */
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        @media (min-width: 576px) {
+            .grid-container {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+    
 
